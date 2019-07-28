@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <section id="authorisation">
+      <h2>Войти в аккаунт:</h2>
       <form method="post" action="/login/" class="container">
         <input id="loginField" type="text" name="login" placeholder="Логин">
         <input id="passwordField" type="password" name="password" placeholder="Пароль">
@@ -26,7 +27,9 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  margin-top: 2rem;
 }
+
 ul {
   list-style-type: none;
   padding: 0;

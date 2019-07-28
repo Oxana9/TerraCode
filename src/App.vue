@@ -5,14 +5,12 @@
         <div class="banner-wrapper d-flex position-absolute w-100 h-100">
           <div class="terminal logo banner-caption-wrapper align-self-center text-center w-100">
             <h1 id="main-title" class="display-1 text-secondary logo text-uppercase mt-5 mt-md-4 mt-lg-0 mb-2">Terra{<img src="./assets/logo.png">}Code</h1>
+            <h2>Школа программирования для детей</h2>
+            <p>Добро пожаловать!</p>
           </div>
         </div>
       </div>
     </header>
-    <section id="greeting">
-      <h2>Школа программирования для детей</h2>
-      <p>Добро пожаловать!</p>
-    </section>
     <router-view/>
     <footer>
       <div class="footer-container">
@@ -82,7 +80,7 @@ a {
 }
 
 .page-header {
-  min-height: 1000px;
+  min-height: 700px;
   background: url("./assets/header.jpg") no-repeat center fixed;
   background-size: cover;
 }
